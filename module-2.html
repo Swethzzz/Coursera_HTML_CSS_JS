@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MODULE 2 Assignment</title>
+
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			font-family: "Comic Sans MS","Comic Sans",cursive,'Helvatica', sans-serif
+		}
+
+		.row{
+			  margin-top: 5%;
+			  margin-bottom: 5%;
+		}
+
+		h1 {
+			margin-bottom: 15px;
+  			text-align: center;
+  			color: #581845;
+  			font-size: 50px;
+		}
+
+
+	#box,.box{
+		  	width: 100%;
+			overflow: none;
+	}
+
+
+	.content-name{
+  		overflow: none;
+  		text-align: center;
+  		border: 4px solid black;
+  		width: 100px;
+  		height: 40px;
+  		padding: 5px;
+  		float: right;
+  		margin-right: 10px;
+  		margin-top: 0px;
+  		font-weight: bold;
+  		position: relative;
+	}
+
+		.content{
+			  	border: 4px solid darkslateblue;
+  				width: 90%;
+  				height: auto;
+  				margin: 2.5%;
+  				color: black
+  				font-size: 25px;
+  				padding: 2%;
+  				padding-top: 50;
+  				background-color: rgba(0,0,0,0.3);
+			}
+
+			.c1{
+			  background-color: #581845;
+			  color: white;
+			}
+
+			.c2{
+			   background-color: #581845;
+			  color: white;
+			}
+			.c3{
+			   background-color: #581845;
+			  color: white;
+			}
+
+
+
+			/* User Device Acceptance */
+
+			/**---------Large devices only ----------**/
+			@media (min-width: 992px) {
+			  .large-4 {
+			  	float: left;
+			    width: 33.33%;
+			  }
+			}
+			/********** Medium devices only **********/
+			@media (min-width: 768px) and (max-width: 991px) {
+			  .medium-6,.medium-12 {
+			    float: left;
+			  }
+			  .medium-6 {
+			    width: 50%;
+			  }
+			  .medium-12 {
+			    margin-left: -10px;
+			    width: 100%;
+			  }
+			  .name3{
+			    margin-right: 65px;
+			    width: 100px;
+			  }
+			}
+
+			@media (min-width: 0px) and (max-width: 767px) {
+			  .small-12 {
+			  	float: left;
+			    width: 100%;
+			  }
+			  .content-name{
+			    margin-right: 30px;
+			  }
+			}
+
+	</style>
+
+
+</head>
+<body>
+	<h1>OUR MENU</h1>
+	<div class="container">
+
+  <div class="large-4 medium-6 small-12">
+		<div class="box">
+			<p class="content-name c1">Chicken</p>
+			<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>	
+
+	  <div class="large-4 medium-6 small-12">
+		<div class="box">
+			<p class="content-name c2">Beef</p>
+				<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+
+		
+	 <div class="large-4 medium-12 small-12">
+	 	<div id="box">
+
+			<p class="content-name c3">Sushi</p>
+				<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
+		</div>
+	  </div>
+	</div>
+</body>
+</html>
